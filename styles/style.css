@@ -1,0 +1,193 @@
+@font-face {
+  font-family: exbold;
+  src: url('Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: bold;
+  src: url('Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: semibold;
+  src: url('Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: medium;
+  src: url('Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: regular;
+  src: url('Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: thin;
+  src: url('Poppins-Thin.ttf');
+}
+
+@font-face {
+  font-family: rbold;
+  src: url('Rubik-Bold.ttf');
+}
+
+@font-face {
+  font-family: rmedium;
+  src: url('Rubik-Medium.ttf');
+}
+
+:root {
+
+  --exbold: exbold;
+  --bold: bold;
+  --semibold: semibold;
+  --medium: medium;
+  --regular: regular;
+  --thin: thin;
+  --rubbold: rbold;
+  --rubmedium: rmedium;
+  --white: #ffffff;
+  --orange: #FA8305;
+  --blue: #3B2A9F;
+  --primary: #5141AA;
+
+}
+
+.bg-primaryy {
+  background-color: var(--primary);
+}
+
+.bg-blue {
+
+  background-color: var(--blue);
+}
+
+.bg-orange {
+
+  background-color: var(--orange);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.white {
+  color: var(--white);
+}
+
+.exbold {
+  font-family: var(--exbold);
+}
+
+.bold {
+  font-family: var(--bold);
+}
+
+.semibold {
+  font-family: var(--semibold);
+}
+
+.medium {
+  font-family: var(--medium);
+}
+
+.regular {
+  font-family: var(--regular);
+}
+
+.thin {
+  font-family: var(--thin);
+}
+
+.rub-bold {
+  font-family: var(--rubbold);
+}
+
+.rub-medium {
+  font-family: var(--rubmedium);
+}
+
+#img_unity {
+  width: 96px;
+  height: 30px;
+  position: relative;
+  left: 150px;
+  top: 260px;
+
+
+}
+
+#img_dasteh {
+
+  width: 670px;
+  height: 670px;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+
+
+
+}
+
+#engine-div {
+  position: relative;
+  bottom: 70px;
+}
+
+#img_cry {
+
+  width: 100px;
+  height: 99px;
+  position: relative;
+  left: 250px;
+  top: 40px;
+
+
+
+}
+
+#img_unreal {
+
+  width: 59px;
+  height: 64px;
+  position: relative;
+  right: 200px;
+  top: 50px;
+
+}
+
+#active1 {
+  position: relative;
+  width: 30.97px;
+  height: 4px;
+
+  background-color: var(--orange);
+  border-radius: 20px;
+  left: 21px;
+  bottom: 5px;
+}
+
+#active2 {
+  position: relative;
+  width: 4.5px;
+  height: 4px;
+
+  background: var(--orange);
+  border-radius: 20px;
+  left: 55px;
+  bottom: 9px;
+}
+
+.game:hover{
+  opacity: 0.5;
+}
+
+.follow:hover{
+  scale: 120%;
+}
